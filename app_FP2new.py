@@ -7,8 +7,8 @@ import os
 
 # Function to get the absolute path based on the script's location
 def get_absolute_path(relative_path):
-    script_directory = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(script_directory, relative_path)
+    return os.path.join("/home/ec2-user/FP2/FP2/", relative_path)
+
 
 st.title('Oil Production Forecast')
 

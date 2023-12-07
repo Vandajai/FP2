@@ -18,7 +18,7 @@ st.title('Oil Production Forecast')
 
 # Display an image related to oil production forecast
 oil_production_img_path = get_absolute_path("oil_production_image.PNG")
-print("Absolute path:", oil_production_img_path)
+#print("Absolute path:", oil_production_img_path)
 oil_production_img = Image.open(oil_production_img_path)
 st.image(oil_production_img, use_column_width=True)
 
